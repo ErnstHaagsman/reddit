@@ -37,3 +37,4 @@ r2/r2/lib/utils/comment_tree_utils.c
 
 # vagrant
 .vagrant/
+.idea/
