@@ -1,11 +1,5 @@
 # Default
-* text=auto
-
-# Shell files
-*.sh text eol=lf
-
-# Configuration files
-*.cfg text eol=lf
+* text=lf
 
 # Image files
 *.png binary
