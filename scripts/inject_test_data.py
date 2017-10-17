@@ -256,7 +256,7 @@ def ensure_subreddit(name, author):
         return sr
 
 
-def inject_test_data(num_links=25, num_comments=25, num_votes=5):
+def inject_test_data(num_links=500, num_comments=750, num_votes=5):
     """Flood your reddit install with test data based on reddit.com."""
 
     print ">>>> Ensuring configured objects exist"
@@ -273,9 +273,8 @@ def inject_test_data(num_links=25, num_comments=25, num_votes=5):
     print ">>>> Fetching real data from reddit.com"
     modeler = Modeler()
     subreddits = [
-        modeler.model_subreddit("pics"),
-        modeler.model_subreddit("videos"),
-        modeler.model_subreddit("askhistorians"),
+        modeler.model_subreddit("django"),
+        modeler.model_subreddit("python"),
     ]
     extra_settings = {
         "pics": {
