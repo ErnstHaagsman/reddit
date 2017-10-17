@@ -256,7 +256,7 @@ def ensure_subreddit(name, author):
         return sr
 
 
-def inject_test_data(num_links=500, num_comments=750, num_votes=5):
+def inject_test_data(num_links=500, num_comments=25, num_votes=5):
     """Flood your reddit install with test data based on reddit.com."""
 
     print ">>>> Ensuring configured objects exist"
