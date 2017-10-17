@@ -48,7 +48,9 @@
         <span class="separator"></span>
       %endif
       %if thing.next:
+        <span class="next-button">
         ${plain_link(format_html("%s &rsaquo;", _("next")), thing.next, rel="nofollow next")}
+        </span>
       %endif
       </span>
       %if thing.next_suggestions:
